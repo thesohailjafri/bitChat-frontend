@@ -14,7 +14,7 @@ function Navbar() {
 
     return (
         <div>
-            <Menu pointing>
+            <Menu attached='top' tabular>
                 <Menu.Item
                     name='home'
                     active={activeItem === 'home'}
